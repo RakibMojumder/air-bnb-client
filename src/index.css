@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+    .example-track {
+        height: 3px;
+        border-radius: 9999px;
+    }
+
+    .example-track.example-track-0 {
+        background: gray;
+    }
+
+    .example-track.example-track-1 {
+        background: black;
+    }
+
+    .example-track.example-track-2 {
+        background: grey;
+    }
+}
